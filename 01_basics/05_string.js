@@ -7,17 +7,17 @@ console.log(`My name is ${name} and I am ${age} years old.`);
  const gamename = new String("GTA RUNNER")
 console.log(gamename);
 console.log(gamename[0]);
-console.log(gamename.__proto__);
+console.log(gamename.__proto__);//gives the prototype of the string object
 
 console.log(gamename.length);
 console.log(gamename.toUpperCase());
-console.log(gamename.charAt(4));
-console.log(gamename.indexOf('RUNNER'));
+console.log(gamename.charAt(4));//gives the character at the specified index
+console.log(gamename.indexOf('RUNNER'));//gives the index of the first occurrence of the substring
 
-const newstring = gamename.substring(0,6);
+const newstring = gamename.substring(0,6);//gives the substring from the specified start index to the end index (not including the end index)
 console.log(newstring);
 
-const anotherstring = gamename.slice(-4, 7);
+const anotherstring = gamename.slice(-4, 7);//gives the substring from the specified start index to the end index (not including the end index), negative index counts from the end of the string
 console.log(anotherstring);
 
 const string1 = "    zuha is learning        "
